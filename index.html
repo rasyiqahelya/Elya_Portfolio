@@ -10,13 +10,19 @@
 <body>
   <!-- Navigation -->
   <nav>
-    <div class="nav-links">
+  <div class="nav-container">
+    <div class="logo">Elya</div>
+
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+    <div class="nav-links" id="navLinks">
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <!-- Hero Section -->
   <section id="home" class="hero">
@@ -201,5 +207,12 @@
       });
     });
   </script>
+  <script>
+  function toggleMenu() {
+    const navLinks = document.getElementById('navLinks');
+    navLinks.classList.toggle('show');
+  }
+  </script>
+
 </body>
 </html>
