@@ -319,11 +319,12 @@ nav {
 }
 
 
+/* Responsive */
 @media (max-width: 768px) {
-  nav {
-    text-align: center;
-    padding: 10px 0;
+  .contact-container {
+    flex-direction: column;
   }
+}
 
   .nav-links a {
     display: block;
