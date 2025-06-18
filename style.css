@@ -321,16 +321,14 @@ nav {
 
 /* Responsive */
 @media (max-width: 768px) {
-  .contact-container {
-    flex-direction: column;
-  }
-}
-
+  /* NAVIGATION */
   .nav-links a {
     display: block;
     margin: 10px 0;
+    text-align: center;
   }
 
+  /* HERO SECTION */
   .hero {
     padding: 60px 20px;
     text-align: center;
@@ -344,6 +342,11 @@ nav {
     font-size: 20px;
   }
 
+  .see-more {
+    width: 100%;
+  }
+
+  /* ABOUT SECTION */
   .about {
     flex-direction: column;
     align-items: center;
@@ -352,21 +355,57 @@ nav {
 
   .about-image img {
     width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .about-content {
+    width: 100%;
+    padding: 0;
   }
 
   .about-content h2 {
-    font-size: 36px;
+    font-size: 30px;
+    text-align: center;
   }
 
+  .about-content p {
+    line-height: 1.8;
+    font-size: 16px;
+    padding: 0 10px;
+    text-align: justify;
+  }
+
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .tab-btn {
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 15px;
+  }
+
+  .tab-panel ul {
+    padding: 0 15px;
+    text-align: left;
+  }
+
+  /* PROJECT SECTION */
   .project-gallery {
     grid-template-columns: 1fr;
     padding: 0 10px;
   }
 
+  /* CONTACT SECTION */
   .contact-container {
     flex-direction: column;
     align-items: center;
     padding: 40px 20px;
+    text-align: center;
   }
 
   .contact-form {
@@ -375,11 +414,6 @@ nav {
 
   .contact-form input,
   .contact-form textarea {
-    width: 50%;
-  }
-
-  .see-more {
-    width: 50%;
+    width: 100%;
   }
 }
-
