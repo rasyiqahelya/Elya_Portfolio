@@ -26,6 +26,9 @@ This is a single-page creative portfolio website for **Elya Rasyiqah**, showcasi
 3. Make sure all images (e.g. `project 1.jpg`, `Photo.png`) are in the same folder or correctly linked.
 
 ## 📂 Folder Structure
+
+```
+
 ELYA_PORTFOLIO/
 ├── index.html
 ├── style.css
@@ -38,6 +41,8 @@ ELYA_PORTFOLIO/
 ├── project 4.jpg
 ├── project 5.jpg
 ├── project 6.jpg
+
+```
 
 ## 👩‍💻 Author
 **Elya Rasyiqah**  
