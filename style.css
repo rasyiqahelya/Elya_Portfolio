@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding-top: 100px;
@@ -315,11 +319,66 @@ nav {
 }
 
 
-/* Responsive */
 @media (max-width: 768px) {
+  nav {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .nav-links a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .hero {
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+  }
+
+  .about-image img {
+    width: 200px;
+  }
+
+  .about-content h2 {
+    font-size: 36px;
+  }
+
+  .project-gallery {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+
   .contact-container {
     flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+  }
+
+  .see-more {
+    width: 100%;
   }
 }
-
 
