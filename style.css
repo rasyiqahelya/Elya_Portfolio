@@ -375,11 +375,11 @@ nav {
 
   .contact-form input,
   .contact-form textarea {
-    width: 100%;
+    width: 50%;
   }
 
   .see-more {
-    width: 100%;
+    width: 50%;
   }
 }
 
