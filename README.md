@@ -16,10 +16,15 @@ This is a single-page creative portfolio website for **Elya Rasyiqah**, showcasi
 - Custom design with warm beige color theme
 
 ## 🛠️ Technologies Used
-- HTML
+- HTML5
 - CSS
 - Font Awesome (for icons)
+- Responsive Design (Media Queries)
+- GitHub (for version control & project hosting)
+
+## 🎨 Design Choices
 - Custom font: Georgia
+- Color palette: Warm beige tones
 
 ## 🚀 How to Run
 1. Download or clone the repository.
