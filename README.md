@@ -1,4 +1,4 @@
-# Elya Rasyiqah Portfolio
+# Personal Portfolio Website
 
 This is a single-page creative portfolio website for **Elya Rasyiqah**, showcasing personal background, multimedia projects, and contact information.
 
@@ -24,6 +24,7 @@ This is a single-page creative portfolio website for **Elya Rasyiqah**, showcasi
 1. Download or clone the repository.
 2. Open `index.html` in any web browser.
 3. Make sure all images (e.g. `project 1.jpg`, `Photo.png`) are in the same folder or correctly linked.
+4. visit the live website here : https://rasyiqahelya.github.io/Elya_Portfolio
 
 ## 📂 Folder Structure
 
