@@ -17,6 +17,7 @@ This is a single-page creative portfolio website for **Elya Rasyiqah**, showcasi
 
 ## 🛠️ Technologies Used
 - HTML
+- CSS
 - Font Awesome (for icons)
 - Custom font: Georgia
 
