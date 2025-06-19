@@ -34,7 +34,7 @@ ELYA_PORTFOLIO/
 ├── index.html
 ├── style.css
 ├── README.md
-├── Gambar Elya.png
+├── Photo.png
 ├── background.jpg
 ├── project 1.jpg
 ├── project 2.jpg
